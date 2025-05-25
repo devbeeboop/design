@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devora Moleman | Creative Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #3c2a4d;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #3c2a4d;
+        }
+        .portfolio-item {
+            margin-bottom: 2rem;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .skill-badge {
+            background-color: #ddd;
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+        }
+        footer {
+            background-color: #3c2a4d;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        a {
+            color: #3c2a4d;
+            text-decoration: none;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #3c2a4d;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Devora Moleman</h1>
+        <p>Creative Content Creator & Illustrator</p>
+        <p><a href="mailto:devoramoleman@gmail.com" style="color:white;">Email Me</a> | <a href="https://www.instagram.com/devoradraws/" style="color:white;">@devoradraws</a> | <a href="https://devoramoleman.myportfolio.com/" style="color:white;">Portfolio</a></p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I'm a London-based content creator and illustrator passionate about designing playful, educational, and visually engaging experiences. Whether I’m crafting story-led social media campaigns or facilitating fun, creative workshops, I bring a child-focused, inclusive mindset to everything I do.</p>
+    </section>
+
+    <section>
+        <h2>Portfolio Highlights</h2>
+        <div class="portfolio-item">
+            <h3>📚 Social Media Campaigns – Library Cats Publishing</h3>
+            <p>Created seasonal illustrations and animated stories to promote digital children’s books. Designed Instagram + TikTok content optimized for engagement.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>🎭 Activity Leadership – Oxford International</h3>
+            <p>Led workshops, talent shows, and interactive games tailored to multilingual children. Designed visual materials and inclusive experiences.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>📸 Creative Experiences – Sea Life London</h3>
+            <p>Guided families through interactive photo experiences and curated social-media-ready visuals.</p>
+        </div>
+        <a class="button" href="portfolio 2.pdf">Download CV (PDF)</a>
+    </section>
+
+    <section>
+        <h2>Skills & Tools</h2>
+        <div class="skills">
+            <span class="skill-badge">Photoshop</span>
+            <span class="skill-badge">Illustrator</span>
+            <span class="skill-badge">Canva</span>
+            <span class="skill-badge">Clip Studio Paint</span>
+            <span class="skill-badge">CapCut</span>
+            <span class="skill-badge">InShot</span>
+            <span class="skill-badge">Instagram Reels</span>
+            <span class="skill-badge">TikTok</span>
+            <span class="skill-badge">HTML & CSS</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Devora Moleman | Designed with 💜</p>
+    </footer>
+</body>
+</html>
